@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&family=Lekton:wght@400;700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-size: 15px;
+    overflow: hidden;
+}
+a{
+    text-decoration: none;
+}
+header, main, nav, footer{
+    padding: 0 14vw;
+}
+h1, nav{
+    font-family: 'Kanit', sans-serif;
+}
+header, h2, footer{
+    font-family: 'Lekton', sans-serif;
+}
+/*HEADER*/
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    background-color: #3AFACC;
+    color: black;
+    height: 8vh;
+}
+header p{
+    font-weight: 700;
+    font-size: 2.5em;
+}
+/*NAV*/
+nav {
+    display: flex;
+    justify-content:center;
+    align-items:baseline;
+    background-color: #4FE883;
+    color: black;
+    height: 25vh;
+    font-size: 2em;
+}
+nav a:nth-child(2){
+    width: 100px;
+    height: 100px;
+    padding: 0 3em;
+}
+nav a img{
+    width: 100%;
+    height: auto;
+}
+/*MAIN*/
+main {
+    display: flex;
+    flex-direction: column;
+    background-color: #4FE883;
+    color:  black;
+    height: 45vh;
+    padding: 0 0 2em 0;
+}
+main h1{
+    font-size: 4.5em;
+    margin-top: -0.3em;
+}
+/*FOOTER*/
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    background-color: #3AFACC;
+    color: black;
+    height: 22vh;
+    padding-top: 2em;
+}
